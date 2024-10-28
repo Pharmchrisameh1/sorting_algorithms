@@ -3,7 +3,7 @@
 /**
  * bubble_sort - this function sorts an array using the bubble
  * sort algorithm (in-place).
- * @array: int pointer to the array that's being sorted.
+ * @array: int pointer to the array to be sorted.
  * @size: size of the array being sorted.
  */
 void bubble_sort(int *array, size_t size)
