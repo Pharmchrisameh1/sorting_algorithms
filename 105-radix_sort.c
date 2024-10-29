@@ -59,7 +59,7 @@ void addtobin(numnode *radixtable[], int index, int number)
 }
 
 /**
- * radix_sort - sorts an array of positive integers in ascending order
+ * radix_sort - the function sorts an array of positive integers in ascending order
  * using the radix sort algorithm.
  * @array: the array being sorted.
  * @size: the size of the array being sorted.
