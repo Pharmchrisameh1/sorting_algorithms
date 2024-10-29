@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * swap - swaps 2 location in a list.
+ * swap - swaps two location in a list.
  * @array: int pointer to the array.
  * @a: first location of array to be swapped.
  * @b: second location of array to be swapped.
  *
- * Return: void.
+ * Return: returns void.
  */
 void swap(int a, int b, int *array)
 {
