@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - swaps 2 location in a list.
+ * swap - the function swaps 2 location in a list.
  * @array: int pointer to the array.
  * @a: first location of array to be swapped.
  * @b: second location of array to be swapped.
@@ -18,7 +18,7 @@ void swap(int a, int b, int *array)
 }
 
 /**
- * make_heap - transforms the array into a heap using the
+ * make_heap - function transforms the array into a heap using the
  * siftdown method.
  * @array: the array to be transformed.
  * @size: size of the array.
