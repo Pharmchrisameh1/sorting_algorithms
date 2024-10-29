@@ -2,7 +2,7 @@
 
 /**
  * convert_to_int - the function converts the name of the card to the int value.
- * @card_name: the string that represents the card's name.
+ * @card_name:string that represents the card's name.
  *
  * Return: returns the int value of the card's name.
  */
