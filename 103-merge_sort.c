@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * merge - merge sorts 2 sorted lists.
+ * merge - the function merge sorts 2 sorted lists.
  * @lo: lowerbound of the array.
  * @hi: higher bound of the array.
  * @middle: middle of the array.
@@ -53,7 +53,7 @@ void merge(int lo, int hi, int middle, int *array, int *sortedarray)
 }
 
 /**
- * split_merge - recursive function that keeps splitting
+ * split_merge - this is a recursive function that keeps splitting
  * an array and then finally merging every 2 halves together.
  * @array: the array to be sorted.
  * @sortedarray: the resulting sorted array.
@@ -80,7 +80,7 @@ void split_merge(int *array, int *sortedarray, int lo, int hi)
 }
 
 /**
- * merge_sort - sorts an array using the merge sort algorithm.
+ * merge_sort - function sorts an array using the merge sort algorithm.
  * @array: int pointer to the array being sorted.
  * @size: size of the array being sorted.
  *
