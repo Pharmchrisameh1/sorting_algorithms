@@ -1,10 +1,10 @@
 #include "deck.h"
 
 /**
- * convert_to_int - converts the name of the card to the int value.
+ * convert_to_int - the function converts the name of the card to the int value.
  * @card_name: the string that represents the card's name.
  *
- * Return: the int value of the card's name.
+ * Return: returns the int value of the card's name.
  */
 int convert_to_int(const char *card_name)
 {
@@ -25,7 +25,7 @@ int convert_to_int(const char *card_name)
 }
 
 /**
- * sort_by_type - sorts a set of cards (Spades, Hearts, Clubs, Diamonds)
+ * sort_by_type - function sorts a set of cards (Spades, Hearts, Clubs, Diamonds)
  * according to its value (Ace to King).
  * @setpointer: the pointer to the beginning node of the set.
  * @deck: the pointer to the first node of the deck.
@@ -69,7 +69,7 @@ void sort_by_type(deck_node_t **setpointer, deck_node_t **deck)
 }
 
 /**
- * sort_by_kind - sorts a deck of cards into 4 sets by kind
+ * sort_by_kind - function sorts a deck of cards into 4 sets by kind
  * (Spades, Hearts, Clubs, Diamonds).
  * @deck: the pointer to the beginning node of the deck.
  *
@@ -111,11 +111,11 @@ void sort_by_kind(deck_node_t **deck)
 }
 
 /**
- * set_pointers - sets the pointers to the beginning
+ * set_pointers - the function sets the pointers to the beginning
  * node of a set (S, H, C, D).
  * @deck: the beginning node of the set before it.
  *
- * Return: deck node pointer to the beginning of the list.
+ * Return: returns deck node pointer to the beginning of the list.
  */
 deck_node_t *set_pointers(deck_node_t *deck)
 {
@@ -131,7 +131,7 @@ deck_node_t *set_pointers(deck_node_t *deck)
 }
 
 /**
- * sort_deck - sorts a deck of cards using 2 keys:
+ * sort_deck - the function sorts a deck of cards using 2 keys:
  * the values of the cards and the kind of every card.
  * @deck: the double pointer to the first node of the unsorted deck.
  * Return: void.
