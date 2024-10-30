@@ -2,7 +2,7 @@
 
 
 /**
- * free_radixtable - the function frees a radixtable.
+ * free_radixtable - frees a radixtable.
  * @radixtable: the radix table to be freed.
  *
  * Return: void.
@@ -27,7 +27,7 @@ void free_radixtable(numnode **radixtable)
 }
 
 /**
- * addtobin - the function adds the number to its corresponding place
+ * addtobin - adds the number to its corresponding place
  * in the bins table (according to the digit).
  * @radixtable: the radix array used.
  * @index: the index to where the number will be added.
@@ -59,7 +59,7 @@ void addtobin(numnode *radixtable[], int index, int number)
 }
 
 /**
- * radix_sort - the function sorts an array of positive integers in ascending order
+ * radix_sort - sorts an array of positive integers in ascending order
  * using the radix sort algorithm.
  * @array: the array being sorted.
  * @size: the size of the array being sorted.
