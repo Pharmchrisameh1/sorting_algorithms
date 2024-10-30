@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * move_backward - the function moves backwards and performs swapping
+ * move_backward - moves backwards and performs swapping
  * in the shaker algorithm.
  * @swapflag: the flag that should be changed if a swap took place.
  * @comp1: pointer to first node to be compared and swapped if needed.
@@ -78,11 +78,11 @@ void move_forward(int *swapflag, listint_t **comp1, listint_t **comp2,
 }
 
 /**
- * cocktail_sort_list - the function sorts a list using the cocktail shaker sort
+ * cocktail_sort_list - sorts a list using the cocktail shaker sort
  * algorithm.
  * @list: double pointer to the head of the list to be sorted.
  *
- * Return: returns void.
+ * Return: void.
  */
 void cocktail_sort_list(listint_t **list)
 {
